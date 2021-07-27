@@ -1,0 +1,42 @@
+.main_container {
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main_div {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_div:hover {
+    box-shadow: 6px 6px 4px 5px #888888;
+}
+
+.main_converter {
+    display: grid;
+    align-items: center;
+}
+
+.m2 {
+    position: relative;
+}
+
+.m3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
